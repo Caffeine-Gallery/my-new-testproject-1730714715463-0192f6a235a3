@@ -1,6 +1,14 @@
+body {
+    background-color: red;
+}
+
 .calculator {
     max-width: 300px;
     margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .keypad {
@@ -17,4 +25,5 @@
 #display {
     font-size: 24px;
     text-align: right;
+    margin-bottom: 10px;
 }
